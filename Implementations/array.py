@@ -1,4 +1,4 @@
-# Reference https://www.geeksforgeeks.org/implementation-of-dynamic-array-in-python/
+# Main Reference https://www.geeksforgeeks.org/implementation-of-dynamic-array-in-python/
 # Python uses a dynamic array
 
 import ctypes
