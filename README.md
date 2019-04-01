@@ -15,15 +15,14 @@ Repository for storing implementations of data structures and commonly used algo
 
 ### Algorithms
 
-- Heap Implementation
 - Tree traversals
-- Merge Sort
 - Quick Sort
 - Bucket Sort
 
 ### Implementations
 
 - Notes to BST
+- Heap Implementation
 
 ## Sources used
 
