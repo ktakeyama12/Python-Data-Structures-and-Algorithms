@@ -2,6 +2,29 @@
 
 Repository for storing implementations of data structures and commonly used algorithms.
 
+## Structure of Repository
+
+| Directory         | Details                                     |
+|-------------------|---------------------------------------------|
+| [Algorithms]      | Commonly seen algorithms                    |
+| [Implementations] | Implementation of different data structures |
+| [Definitions.md]  | Answer to ambiguous definitions             |
+| [README.md]       | This file                                   |
+
+## To Do
+
+### Algorithms
+
+- Heap Implementation
+- Tree traversals
+- Merge Sort
+- Quick Sort
+- Bucket Sort
+
+### Implementations
+
+- Notes to BST
+
 ## Sources used
 
 ### Implementations
@@ -20,3 +43,8 @@ Repository for storing implementations of data structures and commonly used algo
 
 - Main code [Laurent Luce's Blog](https://www.laurentluce.com/posts/binary-search-tree-library-in-python/)
 - Deletion [Geeks for Geeks](https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/)
+
+[Algorithms]: https://github.com/ktakeyama12/Python-Data-Structures-and-Algorithms/tree/master/Algorithms
+[Implementations]: https://github.com/ktakeyama12/Python-Data-Structures-and-Algorithms/tree/master/Implementations
+[Definitions.md]: https://github.com/ktakeyama12/Python-Data-Structures-and-Algorithms/blob/master/Definitions.md
+[README.md]: https://github.com/ktakeyama12/Python-Data-Structures-and-Algorithms/blob/master/README.md
