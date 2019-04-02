@@ -15,7 +15,6 @@ Repository for storing implementations of data structures and commonly used algo
 
 ### Algorithms
 
-- Tree traversals
 - Quick Sort
 - Bucket Sort
 

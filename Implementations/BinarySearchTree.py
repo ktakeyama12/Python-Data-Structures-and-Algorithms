@@ -30,17 +30,17 @@ class BinarySearchTree:
             return node  # IMPORTANT Return unchange node pointer
 
     def printInorder(self):
+        self.arr = []
         self.printInorderHelper(self.root)
+        print(self.arr)
 
     def printInorderHelper(self, node):  # Simple helper to print tree inorder traversal
         if node is not None:
             self.printInorderHelper(node.left)
-            print(node.val)
+            self.arr.append(node.val)
             self.printInorderHelper(node.right)
 
     def delete(self, val):
-    #     if self.root and self.root.val == val:
-
         self.deleteHelper(self.root, val)
 
     def deleteHelper(self, node, val):
