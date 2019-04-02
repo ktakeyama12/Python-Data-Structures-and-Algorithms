@@ -42,6 +42,16 @@ Repository for storing implementations of data structures and commonly used algo
 - Main code [Laurent Luce's Blog](https://www.laurentluce.com/posts/binary-search-tree-library-in-python/)
 - Deletion [Geeks for Geeks](https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/)
 
+### Algorithms
+
+#### Quick Sort
+
+- Main code [Geeks for Geeks](https://www.geeksforgeeks.org/quick-sort/)
+
+#### Merge Sort
+
+- Main code [Geeks for Geeks](https://www.geeksforgeeks.org/merge-sort/)
+
 [Algorithms]: https://github.com/ktakeyama12/Python-Data-Structures-and-Algorithms/tree/master/Algorithms
 [Implementations]: https://github.com/ktakeyama12/Python-Data-Structures-and-Algorithms/tree/master/Implementations
 [Definitions.md]: https://github.com/ktakeyama12/Python-Data-Structures-and-Algorithms/blob/master/Definitions.md
