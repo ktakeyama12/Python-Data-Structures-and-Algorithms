@@ -21,7 +21,6 @@ Repository for storing implementations of data structures and commonly used algo
 ### Implementations
 
 - Notes to BST
-- Heap Implementation
 
 ## Sources used
 
