@@ -7,6 +7,7 @@ Repository for storing implementations of data structures and commonly used algo
 | Directory         | Details                                     |
 |-------------------|---------------------------------------------|
 | [Algorithms]      | Commonly seen algorithms                    |
+| [CommonProblems]  | Commonly seen problems                      |
 | [Implementations] | Implementation of different data structures |
 | [Definitions.md]  | Answer to ambiguous definitions             |
 | [README.md]       | This file                                   |
@@ -15,7 +16,6 @@ Repository for storing implementations of data structures and commonly used algo
 
 ### Algorithms
 
-- Quick Sort
 - Bucket Sort
 
 ### Implementations
@@ -52,6 +52,7 @@ Repository for storing implementations of data structures and commonly used algo
 - Main code [Geeks for Geeks](https://www.geeksforgeeks.org/merge-sort/)
 
 [Algorithms]: https://github.com/ktakeyama12/Python-Data-Structures-and-Algorithms/tree/master/Algorithms
+[CommonProblems]: https://github.com/ktakeyama12/Python-Data-Structures-and-Algorithms/tree/master/CommonProblems
 [Implementations]: https://github.com/ktakeyama12/Python-Data-Structures-and-Algorithms/tree/master/Implementations
 [Definitions.md]: https://github.com/ktakeyama12/Python-Data-Structures-and-Algorithms/blob/master/Definitions.md
 [README.md]: https://github.com/ktakeyama12/Python-Data-Structures-and-Algorithms/blob/master/README.md
