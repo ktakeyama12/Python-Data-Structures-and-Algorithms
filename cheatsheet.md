@@ -6,13 +6,13 @@ AA
 
 ## Time complexities to remember
 
-| Name           | Best    | Worst   | Space  | Key Features              |
-| -------------- | ------- | ------- | ------ | ------------------------- |
-| Quicksort      | nlog(n) | n^2     | log(n) | Pivot                     |
-| Mergesort      | nlog(n) | nlog(n) | n      | Split, divide-and-conquer |
-| Bubble Sort    | n       | n^2     | 1      | Bubble up                 |
-| Insertion Sort | n       | n^2     | 1      | Pick 1 element and move   |
-|                |         |         |        |                           |
+| Name                    | Best    | Worst   | Space  | Key Features              |
+| ----------------------- | ------- | ------- | ------ | ------------------------- |
+| [Quicksort](#quicksort) | nlog(n) | n^2     | log(n) | Pivot                     |
+| Mergesort               | nlog(n) | nlog(n) | n      | Split, divide-and-conquer |
+| Bubble Sort             | n       | n^2     | 1      | Bubble up                 |
+| Insertion Sort          | n       | n^2     | 1      | Pick 1 element and move   |
+|                         |         |         |        |                           |
 
 ## Details of each sort
 
