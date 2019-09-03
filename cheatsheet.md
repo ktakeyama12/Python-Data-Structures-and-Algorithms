@@ -2,17 +2,27 @@
 
 ## Table of Contents
 
-AA
+- [Time complexities to remember](#time-complexities-to-remember)
+- [Details of each sort](#details-of-each-sort)
+  - [Quicksort](#quicksort)
+  - [Mergesort](#mergesort)
+  - [Bubble Sort](#bubble-sort)
+  - [Insertion Sort](#insertion-sort)
+- [Graph Traversals](#graph-traversals)
+  - [Graph Traversal Overview](#graph-traversal-overview)
+  - [Dijkstra](#dijkstra)
+  - [Bellman-ford](#bellman-ford)
+  - [Floyd-Warshall](#floyd-warshall)
 
 ## Time complexities to remember
 
-| Name                    | Best    | Worst   | Space  | Key Features              |
-| ----------------------- | ------- | ------- | ------ | ------------------------- |
-| [Quicksort](#quicksort) | nlog(n) | n^2     | log(n) | Pivot                     |
-| Mergesort               | nlog(n) | nlog(n) | n      | Split, divide-and-conquer |
-| Bubble Sort             | n       | n^2     | 1      | Bubble up                 |
-| Insertion Sort          | n       | n^2     | 1      | Pick 1 element and move   |
-|                         |         |         |        |                           |
+| Name                              | Best    | Worst   | Space  | Key Features              |
+| --------------------------------- | ------- | ------- | ------ | ------------------------- |
+| [Quicksort](#quicksort)           | nlog(n) | n^2     | log(n) | Pivot                     |
+| [Mergesort](#mergesort)           | nlog(n) | nlog(n) | n      | Split, divide-and-conquer |
+| [Bubble Sort](#bubble-sort)       | n       | n^2     | 1      | Bubble up                 |
+| [Insertion Sort](#insertion-sort) | n       | n^2     | 1      | Pick 1 element and move   |
+|                                   |         |         |        |                           |
 
 ## Details of each sort
 
@@ -103,7 +113,7 @@ def mergesort(list):
 
 
 
-### Bubblesort
+### Bubble Sort
 
 ##### The Good
 
@@ -160,4 +170,20 @@ for i in range(len(list)):
 		list[i-1], list[i]
     i -= 1
 ```
+
+## Graph Traversals
+
+### Graph Traversal Overview
+
+| Name           | Solves                     | Precautions            | Time complexity |
+| -------------- | -------------------------- | ---------------------- | --------------- |
+| Dijkstra       | One source to all vertices | No negative edges      | O(VlogV)        |
+| Bellman-Ford   | One source to all vertices | Negative edges allowed | O(\|V\|^2)      |
+| Floyd-Warshall | All shortest paths         | Negative edges allowed | O(\|V\|^3)      |
+
+### Dijkstra
+
+### Bellman-Ford
+
+### Floyd-Warshall
 
