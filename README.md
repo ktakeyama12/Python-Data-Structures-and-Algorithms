@@ -15,8 +15,8 @@ Repository for storing implementations of data structures and commonly used algo
 
 ### Algorithms
 
-- Quick Sort
 - Bucket Sort
+- Insertion Sort
 
 ### Implementations
 
